@@ -6,13 +6,13 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 // Get the quantity input element
-// const quantityInput = document.getElementById("quantity");
+const quantityInput = document.getElementById("quantity");
 
 // // Get the current quantity
-// const currentQuantity = parseInt(quantityInput.value, 10);
+const currentQuantity = parseInt(quantityInput.value, 10);
 
 // // Update the quantity
-// quantityInput.value = currentQuantity + 1;
+quantityInput.value = currentQuantity + 1;
 
 // var likes = document.querySelector('#likes2')
 // var count = document.querySelector("#likes");
@@ -33,7 +33,8 @@ var count = document.querySelector("#likes");
 var count = document.querySelector("#likes")
 
 function add1(id){
-var likes = document.querySelector(id)
-likes.innerText++
-}x
+var cart = document.querySelector("inputQuantity")
+var likes = document.querySelector('id')
+likes.innerText += cart
+}
 console.log()
